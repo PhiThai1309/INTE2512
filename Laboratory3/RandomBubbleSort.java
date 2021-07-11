@@ -26,6 +26,7 @@ public class RandomBubbleSort {
         }
 
         StopWatch stopWatch = new StopWatch();
+        stopWatch.start();
         selectionSort(numbers);
         stopWatch.stop();
 
