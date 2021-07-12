@@ -42,11 +42,11 @@ public class QuadraticEquation {
         return Math.pow(b, 2) - 4 * a * c;
     }
 
+    //Get roots
     public double getRoot1() {
         return getDiscriminant() < 0 ? 0 :
                 ((-b) + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
     }
-
     public double getRoot2() {
         return getDiscriminant() < 0 ? 0 :
                 ((-b) - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);

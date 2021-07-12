@@ -24,10 +24,8 @@ public class DisplayDiscriminant {
 
         System.out.println("Enter the value for A: ");
         double a = input.nextDouble();
-
         System.out.println("Enter the value for B: ");
         double b = input.nextDouble();
-
         System.out.println("Enter the value for C: ");
         double c = input.nextDouble();
 
