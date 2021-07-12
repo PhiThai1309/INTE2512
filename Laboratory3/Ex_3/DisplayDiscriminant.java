@@ -13,7 +13,7 @@ that prompts the user to enter values for a, b then displays the result based on
 discriminant. If the discriminant is positive, display two roots. If the discriminant is 0,
 display one root. Otherwise, display "The equation has no roots."
  */
-package Laboratory3.W3_3;
+package Laboratory3.Ex_3;
 
 import java.util.Scanner;
 
