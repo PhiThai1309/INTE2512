@@ -1,4 +1,5 @@
-package Laboratory3;/*
+package Laboratory3;
+/*
 Design a class named Laboratory3.StopWatch. The class contains:
 • Private attributes startTime and endTime with get methods.
 • A no-arg constructor that initializes startTime with the current time.
