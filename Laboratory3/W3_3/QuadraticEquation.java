@@ -1,4 +1,4 @@
-package Laboratory3;
+package Laboratory3.W3_3;
 
 public class QuadraticEquation {
     private double a;
