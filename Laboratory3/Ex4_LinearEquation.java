@@ -15,7 +15,7 @@ package Laboratory3;
 
 import java.util.Scanner;
 
-public class LinearEquation {
+public class Ex4_LinearEquation {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a,b,c,d,e,f: ");

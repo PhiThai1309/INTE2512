@@ -15,9 +15,9 @@ be used to set a specified elapse time since January 1, 1970. Set the value to
 
 import java.util.*;
 
-public class DisplayDate {
+public class Ex1_DisplayDate {
 
-    public DisplayDate() {
+    public Ex1_DisplayDate() {
     }
 
     public static String cal() {

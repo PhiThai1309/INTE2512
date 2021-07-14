@@ -1,12 +1,12 @@
-package Laboratory3.Ex_3;
+package Laboratory3.Ex3;
 
-public class QuadraticEquation {
+public class Ex3_QuadraticEquation {
     private double a;
     private double b;
     private double c;
 
     //Constructor
-    public QuadraticEquation(double a, double b, double c) {
+    public Ex3_QuadraticEquation(double a, double b, double c) {
         this.a = a;
         this.b = b;
         this.c = c;

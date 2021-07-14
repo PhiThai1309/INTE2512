@@ -13,11 +13,11 @@ that prompts the user to enter values for a, b then displays the result based on
 discriminant. If the discriminant is positive, display two roots. If the discriminant is 0,
 display one root. Otherwise, display "The equation has no roots."
  */
-package Laboratory3.Ex_3;
+package Laboratory3.Ex3;
 
 import java.util.Scanner;
 
-public class DisplayDiscriminant {
+public class Ex3_DisplayDiscriminant {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -29,7 +29,7 @@ public class DisplayDiscriminant {
         System.out.println("Enter the value for C: ");
         double c = input.nextDouble();
 
-        QuadraticEquation equation = new QuadraticEquation(a,b,c);
+        Ex3_QuadraticEquation equation = new Ex3_QuadraticEquation(a,b,c);
         double discriminant = equation.getDiscriminant();
 
         if(discriminant > 0) {

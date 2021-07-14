@@ -13,9 +13,9 @@ that measures the execution time of sorting 100,000 numbers using selection sort
 
 import java.util.*;
 
-public class RandomBubbleSort {
+public class Ex2_RandomBubbleSort {
 
-    public RandomBubbleSort() {
+    public Ex2_RandomBubbleSort() {
     }
 
     public static void main(String[] args) {
