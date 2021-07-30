@@ -17,9 +17,6 @@ import java.util.*;
 
 public class Ex1_DisplayDate {
 
-    public Ex1_DisplayDate() {
-    }
-
     public static String cal() {
         GregorianCalendar cal = new GregorianCalendar();
         int year = cal.get(Calendar.YEAR);
