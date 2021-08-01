@@ -1,5 +1,5 @@
 package Laboratory4;
-public class Ex3{
+public class Ex2{
     public static void main(String[] args) {
         B b = new B(2,4);
         System.out.println(b.getArea());

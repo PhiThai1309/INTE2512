@@ -28,13 +28,13 @@ public class Ex2_RandomBubbleSort {
 
         StopWatch stopWatch = new StopWatch();
         stopWatch.start();
-        selectionSort(numbers);
+        bubbleSort(numbers);
         stopWatch.stop();
 
         System.out.println("Sorting 100,000 numbers took " + stopWatch.getElapsedTime() + " milliseconds");
     }
 
-    public static void selectionSort(int[] list) {
+    public static void bubbleSort(int[] list) {
         for (int i = 0; i < list.length; i++) {
             int currentMin = list[i];
             int currentMinIndex = i;
