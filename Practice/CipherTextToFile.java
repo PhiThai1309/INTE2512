@@ -29,13 +29,16 @@ public class CipherTextToFile {
             //write to a file
             FileWriter myWriter = new FileWriter("Practice/cipher.txt");
             ciphertext(file, line);
-            PrintWriter output = new PrintWriter(myWriter);
-            output.println(line);
-            if(!output.checkError()) {
-                System.out.println("Write to file successfully!");
-            }
-            output.flush();
-            output.close();
+            myWriter.write(line);
+
+            //Write with PrintWriter
+            // PrintWriter output = new PrintWriter(myWriter);
+            //output.println(line);
+//            if(!output.checkError()) {
+//                System.out.println("Write to file successfully!");
+//            }
+            myWriter.flush();
+            myWriter.close();
             in.close();
 
         } catch (FileNotFoundException e) {
