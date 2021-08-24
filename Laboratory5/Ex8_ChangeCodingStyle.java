@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class Ex8 {
+public class Ex8_ChangeCodingStyle {
     public static void main(String[] args) throws IOException {
         File sourceFile = null;
         File destinationFile = null;
